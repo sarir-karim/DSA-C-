@@ -210,13 +210,14 @@ print sum;
 
 
 // unary operators
+// post increment first prints the value then adds it.,
 
 int aa = 20;
 int bb = aa++;
 
 // cout << "b = " << bb << " a " << aa <<endl; 
 
-
+// pre increment first updates the value then prints it
 int dd = 5;
 int ee = ++dd;
 
