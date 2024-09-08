@@ -399,7 +399,7 @@ int main()
             cout << "*";
         }
 
-         for (j = 1; j < 2 * i + 1; j++)
+        for (j = 1; j < 2 * i + 1; j++)
         {
             cout << " ";
         }
@@ -408,8 +408,10 @@ int main()
             cout << "*";
         }
 
-    cout<<endl;
+        cout << endl;
     }
+
+    
 
     return 0;
 }
